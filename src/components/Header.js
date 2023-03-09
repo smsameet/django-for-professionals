@@ -10,6 +10,7 @@ const Header = () => {
           <Link href='/archives' className="text-gray-300 p-2 hover:bg-gray-300 hover:bg-opacity-10">فهرست</Link>
           <Link href='/support' className="text-gray-300 p-2 hover:bg-gray-300 hover:bg-opacity-10">مشارکت کنندگان</Link>
           <Link href='/contributors' className="text-gray-300 p-2 hover:bg-gray-300 hover:bg-opacity-10">حمایت مالی</Link>
+          <a href='https://github.com/mthri/dfp-persian' className="text-gray-300 p-2 hover:bg-gray-300 hover:bg-opacity-10" target="_blank">دانلود</a>
         </div>
       </div>
       <div className="flex">
