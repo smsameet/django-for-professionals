@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
         </p>
       </div>
       <div className="flex w-3/12 mr-auto">
-        <img src="/cover.jpg"/>
+        <Image src="/cover.jpg" width={400} height={10}/>
       </div>
     </div>
   )
