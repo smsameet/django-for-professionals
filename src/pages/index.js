@@ -15,7 +15,7 @@ const Home = () => {
         </p>
       </div>
       <div className="flex w-3/12 mr-auto">
-        <Image src="/cover.jpg" width={400} height={10}/>
+        <Image src="../../public/cover.jpg" width={400} height={10}/>
       </div>
     </div>
   )
