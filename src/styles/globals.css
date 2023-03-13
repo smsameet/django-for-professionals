@@ -5,3 +5,29 @@
 body {
   @apply bg-gray-800
 }
+
+main h1 {
+  @apply border-b border-b-gray-300 py-3 mb-5 text-2xl
+}
+
+main h2 {
+  @apply border-b border-b-gray-300 py-3 mb-5 text-xl
+}
+
+main p {
+  @apply text-lg leading-9
+}
+
+main a {
+  @apply text-blue-400 hover:underline
+}
+
+main code {
+  font-family: "monospace";
+  direction: ltr;
+  @apply bg-gray-900 text-base p-2 my-2 leading-8 block
+}
+
+.language-python {
+  @apply text-red-400
+}
