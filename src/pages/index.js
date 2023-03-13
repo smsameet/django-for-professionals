@@ -1,9 +1,4 @@
 import Link from "next/link"
-import Image from "next/image"
-
-const myLoader = ({ src, width, quality }) => {
-  return `https://github.com/mthri/dfp-persian/raw/main/${src}?w=${width}&q=${quality || 75}`
-}
 
 const Home = () => {
   return (
@@ -19,7 +14,7 @@ const Home = () => {
           </p>
       </div>
       <div className="flex lg:w-3/12 w-full mr-auto lg:mt-0 mt-10 justify-center">
-        <Image src="cover.jpg" width={800} height={0} loader={myLoader}/>
+        <img src="https://github.com/mthri/dfp-persian/raw/main/cover.jpg"/>
       </div>
     </div>
   )
